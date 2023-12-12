@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0; /*Distancia da tag para um outra tag exterior, exemplo de uma tag imagem até a tag titulo.*/
+    padding: 0; /*A distancia da tag que você ta usando para o conteúdo dela.*/
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #363636 12.62%, #0E1D40 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-img{
+    width: 60px;
+    height: auto;
+    border-radius: 55px;
+}
+.navegacao-item{
+    color: #FC9E19;
+}
+.navegacao-item:hover{
+    color: white;
+}
+
+.navegacao{
+    display: flex;
+    gap: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #e8e8e8;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    padding-top: 100px;
+    font-size: 64px;
+    font-weight: 400px;
+}
+
+.conteudo-principal-img{
+    border-radius: 260px;
+    padding-top: 100px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #FC9E19;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 5px 6px 5px #1e1e1e;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgb(252, 252, 252);
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;  
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-weight: 300;
+    font-size: 16px;
+    align-items: center;
+}
+
+.rodape{
+    border-top: 0.4px solid white;
+}    
+
+.rodape-img{
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+}
